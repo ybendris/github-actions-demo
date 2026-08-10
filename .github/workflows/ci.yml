@@ -15,6 +15,6 @@ permissions:
 
 jobs:
   ci:
-    uses: ybendris/github-workflows/.github/workflows/maven-ci.yml@0.1.0
+    uses: ybendris/github-workflows/.github/workflows/maven-ci.yml@0.2.0
     with:
       java-version: "25"
