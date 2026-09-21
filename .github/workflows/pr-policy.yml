@@ -4,6 +4,10 @@ on:
   pull_request:
     types: [opened, edited, synchronize, reopened]
 
+permissions:
+  contents: read
+  pull-requests: read
+
 jobs:
   policy:
     uses: ybendris/github-workflows/.github/workflows/pr-policy.yml@0.3.0
