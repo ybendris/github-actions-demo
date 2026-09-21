@@ -6,4 +6,4 @@ on:
 
 jobs:
   policy:
-    uses: ybendris/github-workflows/.github/workflows/maven-ci.yml@0.3.0
+    uses: ybendris/github-workflows/.github/workflows/pr-policy.yml@0.3.0
