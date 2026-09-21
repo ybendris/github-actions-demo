@@ -1,0 +1,13 @@
+name: Build
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  java:
+    uses: ybendris/github-workflows/.github/workflows/maven-ci.yml@0.3.0
+    with:
+      java-version: "25"

@@ -1,0 +1,9 @@
+name: PR Policy
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened]
+
+jobs:
+  policy:
+    uses: my-org/github-workflows/.github/workflows/pr-policy.yml@v1
